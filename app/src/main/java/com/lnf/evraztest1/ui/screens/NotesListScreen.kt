@@ -109,8 +109,8 @@ fun NotesLazyColumn(navController: NavController, vm: NotesListVM) {
                 modifier = Modifier.clickable {
                     navController.navigate("${Routes.Note.name}/${item.id}")
                 }) {
-                Text(text = item.title, fontWeight = FontWeight.Bold)
-                Text(text = item.body, maxLines = 3)
+                Text(text = item.title, fontWeight = FontWeight.Bold, color = Color.Black)
+                Text(text = item.body, maxLines = 3, color = Color.Black)
             }
         }
     }
