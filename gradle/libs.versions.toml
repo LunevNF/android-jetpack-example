@@ -1,0 +1,56 @@
+[versions]
+agp = "8.2.1"
+koin-version = "3.5.6"
+kotlin = "1.9.24"
+core-ktx = "1.13.1"
+junit = "4.13.2"
+androidx-test-ext-junit = "1.2.1"
+espresso-core = "3.6.1"
+appcompat = "1.7.0"
+lifecycle-runtime-ktx = "2.8.3"
+material = "1.12.0"
+room-compiler = "2.7.0-alpha05"
+activity-compose = "1.9.0"
+compose-bom = "2023.08.00"
+timber = "4.7.1"
+navigation-runtime-ktx = "2.7.7"
+navigation-compose = "2.7.7"
+ui-tooling = "1.7.0-beta05"
+ui-tooling-preview-android = "1.6.8"
+androidx-glance-preview = "1.1.0-rc01"
+ui-tooling-version = "1.6.8"
+navigation-fragment-ktx = "2.7.7"
+
+[libraries]
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-compiler" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-compiler" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-compiler" }
+androidx-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "ui-tooling" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koin-version" }
+koin-android-scope = { module = "io.insert-koin:koin-androidx-scope", version.ref = "koin-version" }
+koin-android-viewmodel = { module = "io.insert-koin:koin-androidx-viewmodel", version.ref = "koin-version" }
+koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koin-version" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin-version" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigation-runtime-ktx" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
+material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-ui-tooling-preview-android = { group = "androidx.compose.ui", name = "ui-tooling-preview-android", version.ref = "ui-tooling-preview-android" }
+androidx-glance-preview = { group = "androidx.glance", name = "glance-preview", version.ref = "androidx-glance-preview" }
+androidx-glance-appwidget-preview = { group = "androidx.glance", name = "glance-appwidget-preview", version.ref = "androidx-glance-preview" }
+ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "ui-tooling-version" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation-fragment-ktx" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
