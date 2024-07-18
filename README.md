@@ -1,2 +1,2 @@
 # android-jetpack-example
-MVVM, compose, navigation, state
+MVVM, di(Koin), compose, navigation, state
